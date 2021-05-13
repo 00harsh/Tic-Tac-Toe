@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    box-sizing: content-box;
+    background-image: linear-gradient(black,rgb(65, 63, 63), rgb(168, 168, 168),#fff);
+}
+
+.container{
+    position: relative;
+    background-image: linear-gradient(white,grey,black);
+    width: 55vw;
+    height: 100vh;
+    margin:auto;
+}
+
+.header{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.players{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 15%;
+}
+.player{
+    width:50%;
+    background-color: black;
+    color: white; 
+    padding: 4px;  
+    /* border: darkgray 2px solid ; */
+    text-align: center;
+}
+.active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: darkgray 2px solid ;
+}
+
+
+.square{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 60%;
+    /* border: white 2px solid; */
+    margin: auto;
+}
+.box{
+    
+    min-height: 23%;
+    width: 30%; 
+    border: 1px black solid;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 3px;
+    margin-top: 3px;
+    
+}
+.box:hover{
+    cursor: pointer;
+    /* background-color: cornsilk; */
+    width: 33%;
+    border: black 4px solid;
+    
+}
+#prompt{
+    text-align: center;
+    position: fixed;
+    background-image: linear-gradient( rgb(155, 149, 149),rgb(194, 140, 140));
+    width: 15rem;
+    height: 8rem;
+    margin-top: 10%;
+    margin-left: 12%;
+    border:10px rgb(236, 222, 204) solid;
+    border-radius: 15px;
+    font-size: 3em ;
+    color: rgb(228, 228, 228);
+    padding-left: 3px;
+}
+.buttons{
+    margin: 2rem auto;
+    width: 15rem;
+    padding: 5px;
+}
+.btn{
+    width: 10rem;
+    height: 2rem;
+    background-image: radial-gradient(rgb(231, 221, 221), rgb(0, 0, 0));
+    color:rgb(39, 48, 3);
+    font-size: 1rem;
+}
+.btn:hover{
+    cursor: pointer;
+    width: 12rem;
+    height:3rem;
+    font-size: 2rem;
+    border-radius: 7px;
+}
